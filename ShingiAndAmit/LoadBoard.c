@@ -26,7 +26,7 @@ void LoadBoard(char* filename, Board board) // fun loads the board from file
 Player Get_Sign(unsigned char arr[2], int j) // T FOR PLAYER1, B FOR PLAYER2 ' ' (space) for NOPLAYER
 {
 	unsigned char LSB = 1;
-	int arrindex = 0; // first Cell for j 0-3
+	int arrindex = 0; // first Cell for j 0-3 
 
 	if (j > 3) // Seconed Cell for j 4-7
 	{
